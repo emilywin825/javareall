@@ -1,19 +1,22 @@
 package chapter03;
-import java.util.Random;
 import java.util.*;
 public class For{
 	public static void main(String args[])
 	{
-		Scanner input=new Scanner(System.in);
-		int rn;int sum=1;
-		System.out.println("난수의 개수:");
-		rn=input.nextInt();
+		Scanner input=new Scanner (System.in);
 		Random generator=new Random();
-		for(int i=1;i<=rn;i++)
-		{ 
-			int number=generator.nextInt(100);
-			sum+=number;
+		int number;
+		System.out.print("난수의 개수:");
+		number=input.nextInt();
+		int sum=0;
+		int count=0;
+		for(int i=1;i<=number;i++)
+		{
+			int r=generator.nextInt(100);//1~99 사이의 난수를 생성
+			System.out.println("난수"+i+":"+r);
+			sum+=r;
+			count++;
 		}
-		System.out.println("합은"+sum);
+		System.out.println("난수"+count+"개의 합은"+sum);
 	}
 }
