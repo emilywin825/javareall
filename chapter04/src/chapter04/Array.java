@@ -13,6 +13,10 @@ public class Array {
 		 * score[i]=input.nextInt(); sum+=score[i]; }
 		 * System.out.println("평균 성적은"+sum/people+"입니다.");
 		 */
-		Char[] pizza= {'Pepperoni','Mushrooms'};
+		String[] pizza= {"Pepperoni "+"Mushrooms "+"Onions "+"Sausage"};
+		for(int i=0;i<pizza.length;i++)
+		{
+			System.out.println(pizza[i]);
+		}
 	}
 }
