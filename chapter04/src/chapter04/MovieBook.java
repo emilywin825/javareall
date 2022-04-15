@@ -20,7 +20,7 @@ public class MovieBook {
 			  }
 			  System.out.println("\n"+"----------------------------------");
 			 
-			  System.out.print("원하시는 좌석번호를 입력하세요(종료는 -1): ");
+			  System.out.print("원하시는 좌석번호를 입력하세요.(종료는 -1): ");
 			  Scanner input=new Scanner(System.in);
 			  sitnu=input.nextInt();
 			  
