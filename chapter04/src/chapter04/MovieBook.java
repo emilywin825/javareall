@@ -35,7 +35,7 @@ public class MovieBook {
 			  }
 			  else if(number[sitnu-1]==1)
 			  {
-				  System.out.println("이미 예약된 좌석입니다. 다시 시도해주세요.");
+				  System.out.println("이미 예약된 좌석입니다. 다시 시도해주세요..");
 			  }
 		   }
 	}
