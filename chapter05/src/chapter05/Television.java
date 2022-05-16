@@ -1,16 +1,20 @@
 package chapter05;
 
 public class Television {
+	
 	int channel;
 	int volume;
 	boolean onOff;
+	int n; //필드(멤버변수)
 	
-	public static void main(String args[])
+	int getchannel() //메소드(멤버함수)
 	{
-		Television tv=new Television();
-		tv.channel=7;
-		tv.volume=0;
-		tv.onOff=true;
-		System.out.println("텔레비전의 채널은"+tv.channel+"이고 볼륨은"+tv.volume+"입니다");
+		return channel; //channel값을 반환
+	}
+	
+	void print1()
+	{
+		System.out.println("텔레비전"+n+"의 채널은"+channel+"이고 볼륨은"+volume+"입니다"); //클래스 안에서 사용될때는 멤버 연산자 필요 X
+		//System.out.println("텔레비전"+n+"의 반환된 채널은"+getchannel()+"입니다"); 	
 	}
 }
