@@ -18,5 +18,6 @@ public class BreakContinue {
 			n++;
 		}
 		System.out.println("문장에서 발견된 n의 개수:"+n);
+
 	}		
 }
