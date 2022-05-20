@@ -8,7 +8,7 @@ public class StringTest {
 		//int size=st.length();
 		//String add=st.concat(" never Bites!");
 		String re=st.replace('b', 'B');
-		String sub=st.substring(2, 5);
+		String sub=st.substring(2, 7);
 		String upper=st.toUpperCase();
 		String s1="Hello";
 		String s2=" How are you?";
