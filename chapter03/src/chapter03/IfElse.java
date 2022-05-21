@@ -47,7 +47,9 @@ public class IfElse {
 			Date date=new Date();
 			int currentHour=date.getHours(); 
 			Scanner input=new Scanner(System.in);
+			input.close();
 			System.out.println("현재시각은:"+date);
+
 			if(currentHour<12)
 			{
 				System.out.println("Good morning");

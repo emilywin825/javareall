@@ -15,6 +15,7 @@ public class Switch {
 		String Month;
 		System.out.print("월의 이름을 입력하시오:");
 		Month=input.next();
+		input.close();
 		int Monthnumber=0;
 		switch (Month)
 		{

@@ -18,5 +18,6 @@ public class DoWhile {
 		 * int sum=1; int number; System.out.println("숫자를 입력:"); number=input.nextInt();
 		 * for(int i=1;i<=number;i++) { sum*=i; } System.out.println(sum);
 		 */
+		input.close();
 	}
 }

@@ -18,5 +18,6 @@ public class For{
 			count++;
 		}
 		System.out.println("난수"+count+"개의 합은"+sum);
+		input.close();
 	}
 }
