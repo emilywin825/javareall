@@ -12,6 +12,15 @@ public class Car {
 	void changeGear(int g) {gear=g;}
 	void speedUp(int s) {speed=s+10;}
 	void speedDown() {speed-=10;}
+	public String getColor() {return color;}
+	public void setColor(String color) {
+		if (color=="Black")
+			this.color="0";
+		else
+			this.color=color;
+	}
+
+
 }
 
 

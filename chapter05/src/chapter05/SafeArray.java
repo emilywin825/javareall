@@ -5,7 +5,7 @@ public class SafeArray {
 		private int []a;
 		public int length;
 		
-		public SafeArray(int size)
+		public SafeArray(int size) //»ı¼ºÀÚ
 		{
 			a=new int[size];
 			length=size;

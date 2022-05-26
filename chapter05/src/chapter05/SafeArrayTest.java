@@ -6,12 +6,8 @@ public class SafeArrayTest {
 	{
 		Scanner sc=new Scanner(System.in);
 		SafeArray sa=new SafeArray(3);
-		
-		System.out.println("ют╥б:");
-		String index=sc.next();
-		sc.close();
-
-		
-		
 	}
+
 }
+
+

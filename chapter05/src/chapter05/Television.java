@@ -7,6 +7,13 @@ public class Television {
 	boolean onOff;
 	int n; //필드(멤버변수)
 	
+	Television(int c,int v,boolean o)
+	{
+		channel=c;
+		volume=v;
+		onOff=o;
+	}
+	
 	int getChannel() //메소드(멤버함수)
 	{
 		return channel; //channel값을 반환
